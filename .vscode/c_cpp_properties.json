@@ -1,0 +1,49 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "macos-gcc-arm64",
+            "compilerArgs": [
+                "-stdlib=libc++ ",
+                "-pthread ",
+                "-std=c++17 ",
+                "-m64 ",
+                "-I/opt/homebrew/Cellar/root/6.24.04/include/root ",
+                "-L/opt/homebrew/Cellar/root/6.24.04/lib/root ",
+                "-lGui ",
+                "-lCore ",
+                "-lImt ",
+                "-lRIO ",
+                "-lNet ",
+                "-lHist ",
+                "-lGraf ",
+                "-lGraf3d ",
+                "-lGpad ",
+                "-lROOTVecOps ",
+                "-lTree ",
+                "-lTreePlayer ",
+                "-lRint ",
+                "-lPostscript ",
+                "-lMatrix ",
+                "-lPhysics ",
+                "-lMathCore ",
+                "-lThread ",
+                "-lMultiProc ",
+                "-lROOTDataFrame ",
+                "-stdlib=libc++ ",
+                "-lpthread ",
+                "-lm ",
+                "-ldl"
+            ]
+        }
+    ],
+    "version": 4
+}
